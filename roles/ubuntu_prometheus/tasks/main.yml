@@ -1,0 +1,18 @@
+
+
+  - name: install Prometheus (Ubuntu)
+    apt:
+      name: prometheus
+      state: latest
+
+  - name: Prometheus Start/Enable Check
+    service:
+      name: prometheus
+      state: restarted
+      enabled: true
+
+  - name: Apache Start/Enable Check
+    service:
+      name: prometheus
+      state: restarted
+      enabled: true

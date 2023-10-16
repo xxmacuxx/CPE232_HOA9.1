@@ -1,0 +1,6 @@
+
+[ubuntu_prometheus]
+192.168.56.110
+
+[centos_prometheus]
+192.168.56.111
